@@ -31,8 +31,8 @@ app.post('/usuarios', async (req, res) => {
      data: {
        email: req.body.email,
        age: req.body.age,
-       name: req.body.name
-     }
+       name: req.body.name,
+     },
  
   
    })
